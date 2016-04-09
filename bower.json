@@ -7,7 +7,9 @@
     "less-space": "~1.1.1",
     "jquery": "~2.2.2",
     "bootstrap": "~3.3.6",
-    "angular-strap": "^2.3.8"
+    "angular-strap": "^2.3.8",
+    
+    "jquery.stellar": "0.6.2"
   },
   "devDependencies": {}
 }
