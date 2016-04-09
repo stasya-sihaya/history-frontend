@@ -1,9 +1,7 @@
 jQuery(document).ready(function($) {
     "use strict";
 
-    $('[data-toggle="tooltip"]').tooltip();
     //add some elements with animate effect
-
     // $(".big-cta").hover(
     //     function() {
     //         $('.cta a').addClass("animated shake");
@@ -105,12 +103,10 @@ jQuery(document).ready(function($) {
     //     });
     // });
 
+    // tooltip
+    $('.social-network li a, .options_box .color a, [data-toggle="tooltip"]').tooltip();
 
-    // // tooltip
-    // $('.social-network li a, .options_box .color a').tooltip();
-
-
-    // //stats
+    // stats
     // jQuery('.appear').appear();
     // var runOnce = true;
     // jQuery(".stats").on("appear", function(data) {
@@ -139,7 +135,7 @@ jQuery(document).ready(function($) {
     //     }
     // });
 
-    // //parallax
+    // parallax
     // if ($('.parallax').length) {
     //     $(window).stellar({
     //         responsive: true,
@@ -149,31 +145,30 @@ jQuery(document).ready(function($) {
     //         horizontalOffset: 0,
     //         verticalOffset: 0
     //     });
-
     // }
 
 
 
-    // //scroll to top
-    // $(window).scroll(function() {
-    //     if ($(this).scrollTop() > 100) {
-    //         $('.scrollup').fadeIn();
-    //     }
-    //     else {
-    //         $('.scrollup').fadeOut();
-    //     }
-    // });
-    // $('.scrollup').click(function() {
-    //     $("html, body").animate({
-    //         scrollTop: 0
-    //     }, 1000);
-    //     return false;
-    // });
+    // scroll to top
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 100) {
+            $('.scrollup').fadeIn();
+        }
+        else {
+            $('.scrollup').fadeOut();
+        }
+    });
+    $('.scrollup').click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+        return false;
+    });
 
 
 
 
-    // //search
+    // search
     // new UISearch(document.getElementById('sb-search'));
 
     // //cube portfolio
