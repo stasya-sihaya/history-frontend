@@ -2,7 +2,9 @@
   "name": "History",
   "description": "Instintute of History",
   "dependencies": {
-    "angular": "~1.5.3",
+    "angular": "1.5.x",
+    "angular-route": "1.5.x",
+    "less-space": "~1.1.1",
     "jquery": "~2.2.2",
     "bootstrap": "~3.3.6",
     "angular-strap": "^2.3.8"
