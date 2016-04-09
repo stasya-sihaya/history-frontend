@@ -3,7 +3,8 @@
   "description": "Instintute of History",
   "dependencies": {
     "angular": "~1.5.3",
-    "jquery": "~2.2.2"
+    "jquery": "~2.2.2",
+    "bootstrap": "~3.3.6"
   },
   "devDependencies": {}
 }

@@ -1,4 +1,38 @@
 .uppercase {
 	text-transform: uppercase;
+	font-size: 10 px;
 }
 
+
+.logo-img {
+	position: relative;
+	float: left;
+	padding-right: 5px;
+	bottom: 5px;
+}
+
+.logo-main-text {
+	font-size: 20px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	padding-bottom: 5px;
+	vertical-align:baseline;
+}
+
+.logo-small-text {
+	font-size: 10px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	white-space: nowrap;
+	padding-bottom: 5px;
+	vertical-align:baseline;
+}
+
+.box a{
+	color:#666;
+	text-decoration:none;
+}
+
+.box a:hover{
+	text-decoration:none;
+}
